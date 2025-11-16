@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="213.0" minWidth="10.0" prefWidth="98.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="213.0" minWidth="10.0" prefWidth="98.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="213.0" minWidth="0.0" prefWidth="55.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="618.0" minWidth="0.0" prefWidth="257.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="636.0" minWidth="10.0" prefWidth="310.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="407.0" minWidth="10.0" prefWidth="204.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="138.0" minHeight="10.0" prefHeight="110.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="225.0" minHeight="0.0" prefHeight="57.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="225.0" minHeight="10.0" prefHeight="87.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="225.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="300.80000000000007" minHeight="10.0" prefHeight="109.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="300.80000000000007" minHeight="10.0" prefHeight="106.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="300.80000000000007" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="259.0" minHeight="10.0" prefHeight="202.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnSpan="2147483647">
+         <children>
+            <Label text="Welcome to Hotel Reservation System!">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" text="Rules &amp; Regulations" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" text="Next" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <Label text="Adults" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Label text="Children" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Spinner GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Spinner GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.columnSpan="2147483647" GridPane.rowIndex="2">
+         <children>
+            <Label text="1. Enter the number of people to book">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Line endX="614.2929077148438" endY="0.7928932309150696" startX="-100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Line endX="611.2929077148438" endY="0.2781837582588196" startX="-100.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+   </children>
+</GridPane>
